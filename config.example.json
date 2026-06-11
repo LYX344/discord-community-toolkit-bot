@@ -1,0 +1,45 @@
+{
+  "BOT_TOKEN": "YOUR_BOT_TOKEN_HERE",
+  "PREFIX": "!",
+  "DEVELOPER_IDS": [
+    "YOUR_DEVELOPER_ID_HERE"
+  ],
+  "PROXY": {
+    "enabled": false,
+    "url": "http://127.0.0.1:7890"
+  },
+  "AUTO_BLACKLIST_MONITOR": {
+    "enabled": false,
+    "target_bot_ids": [],
+    "monitor_channel_id": "REPLACE_WITH_CHANNEL_ID"
+  },
+  "FEEDBACK": {
+    "enabled": true,
+    "target_channel_id": "REPLACE_WITH_CHANNEL_ID",
+    "panel_title": "反馈中心",
+    "panel_description": "请选择匿名或实名提交反馈，所有反馈将转发到指定频道。",
+    "anonymous_button_label": "匿名反馈",
+    "named_button_label": "实名反馈",
+    "anonymous_modal_title": "匿名反馈",
+    "named_modal_title": "实名反馈",
+    "modal_input_label": "请输入你的反馈（支持多行）",
+    "success_message_ephemeral": "已收到你的反馈。",
+    "rate_limited_message_ephemeral": "你的发言不足或频率限制未达标，暂时无法提交反馈。",
+    "role_denied_message_ephemeral": "你尚未具备允许提交反馈的身份组。",
+    "allowed_role_ids": [],
+    "limits": {
+      "min_total_messages": 10,
+      "window_seconds": 3600,
+      "min_messages_in_window": 3,
+      "max_feedbacks_per_day": 5
+    },
+    "runtime_counters": {
+      "enabled": true,
+      "snapshot_interval_seconds": 600,
+      "persist_snapshots": false
+    }
+  },
+  "enableLegacySync": false,
+  "legacyDatabasePath": "REPLACE_WITH_ABSOLUTE_DB_PATH"
+}
+
