@@ -1,8 +1,10 @@
 # Discord Community Toolkit Bot
 
-这是一个基于 Python 和 discord.py 的 Discord 社区工具箱 Bot，面向社区运营、活动挑战、论坛监控、反馈收集、待办提醒和跨 Bot 管理联动场景。项目适合展示复杂 Slash Command 组织、交互式组件、SQLite 持久化、后台任务和社区自动化能力。
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green)
 
-> 本仓库为脱敏公开版本，不包含任何真实服务器数据、Bot Token、数据库文件或日志。
+基于 Python 和 discord.py 的社区工具箱 Bot，面向社区运营、活动挑战、论坛监控、反馈收集、待办提醒和跨 Bot 管理联动场景。核心涉及 Slash Command 组织、交互式组件、SQLite 持久化、后台任务和自动化调度。
+
+> 公开版本已脱敏：不含真实服务器数据、Bot Token、数据库文件或日志。
 
 ## 功能概览
 
